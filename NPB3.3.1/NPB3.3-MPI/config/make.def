@@ -36,7 +36,7 @@ FLINK	= $(MPIF77)
 #---------------------------------------------------------------------------
 # These macros are passed to the linker to help link with MPI correctly
 #---------------------------------------------------------------------------
-FMPI_LIB  =  -L/home/elie/Documents/HPC_MPI/mrmpi/install/lib -Wl,-rpath -lmrmpi -lgcrypt
+FMPI_LIB  = 
 
 #---------------------------------------------------------------------------
 # These macros are passed to the compiler to help find 'mpif.h'
@@ -82,12 +82,12 @@ CLINK	= $(MPICC)
 #---------------------------------------------------------------------------
 # These macros are passed to the linker to help link with MPI correctly
 #---------------------------------------------------------------------------
-CMPI_LIB  = -L/home/elie/Documents/HPC_MPI/mrmpi/install/lib -Wl,-rpath -lmrmpi -lgcrypt
+CMPI_LIB  = 
 
 #---------------------------------------------------------------------------
 # These macros are passed to the compiler to help find 'mpi.h'
 #---------------------------------------------------------------------------
-CMPI_INC = -I/home/elie/Documents/HPC_MPI/mrmpi/install/include 
+CMPI_INC = 
 
 #---------------------------------------------------------------------------
 # Global *compile time* flags for C programs

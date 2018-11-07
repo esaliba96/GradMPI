@@ -14,7 +14,7 @@ from threading import Timer
 base_cmd = """
 mpirun
 -mca btl_tcp_if_include eth0
--hostfile /home/cjford/127hosts
+-hostfile /home/esaliba/GradMPI/LABMNGR_T/host_file
 -npernode 12
 """.split()
 timeout = 1800 # 30 minutes

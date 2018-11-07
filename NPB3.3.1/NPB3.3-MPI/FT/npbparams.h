@@ -15,15 +15,15 @@ c
         logical  convertdouble
         parameter (convertdouble = .false.)
         character*11 compiletime
-        parameter (compiletime='31 Oct 2018')
+        parameter (compiletime='06 Nov 2018')
         character*5 npbversion
         parameter (npbversion='3.3.1')
         character*6 cs1
         parameter (cs1='mpif77')
         character*9 cs2
         parameter (cs2='$(MPIF77)')
-        character*46 cs3
-        parameter (cs3='-L/home/elie/Documents/HPC_MPI/mrmpi/instal...')
+        character*6 cs3
+        parameter (cs3='(none)')
         character*6 cs4
         parameter (cs4='(none)')
         character*2 cs5
