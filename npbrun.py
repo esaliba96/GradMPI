@@ -11,11 +11,20 @@ from threading import Timer
 # /usr/lib64/openmpi/bin/mpirun
 # /opt/pgi/linux86-64/2015/mpi/mpich/bin/mpirun
 # -iface eth0
+#base_cmd = """
+#mpirun
+#-mca btl_tcp_if_include ens6f0
+#-hostfile /home/esaliba/GradMPI/LABMNGR_T/hosts
+#-npernode 4
+#""".split()
 base_cmd = """
-mpirun
--mca btl_tcp_if_include eth0
--hostfile /home/cjford/127hosts
--npernode 12
+mpiexec 
+-hostfile LABMNGR_T/hosts 
+--mca plm_rsh_no_tree_spawn 1 
+--mca btl_tcp_if_include ens6f0 
+--prefix /usr/lib64/openmpi 
+--map-by ppr:4:node
+NPB3.3.1/NPB3.3-MPI/bin/bt.B.64
 """.split()
 timeout = 1800 # 30 minutes
 
@@ -42,11 +51,11 @@ for i in range(args.iterations):
                 ]
             print(" ".join(cmd))
 
-            print(e, nprocs, r, end=" ")
+            #print(e, nprocs, r, end=" ")
             sys.stdout.flush()
 
             start_time = time.monotonic()
-            proc = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
+            proc = subprocess.Popen(base_cmd, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
 
             def kill_proc():
                 proc.kill()
@@ -59,15 +68,15 @@ for i in range(args.iterations):
                 for line in io.TextIOWrapper(proc.stdout, encoding="utf-8"):
                     match = mode_re.search(line)
                     if match:
-                        print(match.group(1), end=" ")
+                        print(match.group(1))
                         sys.stdout.flush()
                     match = time_re.search(line)
                     if match and not time_found:
-                        print(match.group(1), end=" ")
+                        print(match.group(1))
                         sys.stdout.flush()
                         time_found = True
                         # print(line, end='')
             finally:
                 timer.cancel()
 
-            print('{0:.2f}'.format(time.monotonic() - start_time))
+            print('{0:.2f}'.format(time.monotonic() - start_time), "hello")

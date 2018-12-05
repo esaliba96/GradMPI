@@ -1,0 +1,27 @@
+Warning: Permanently added the ECDSA host key for IP address '129.65.221.42' to the list of known hosts.
+ens6f0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 129.65.221.42  netmask 255.255.255.0  broadcast 129.65.221.255
+        inet6 fe80::210:9bff:fe45:c2f8  prefixlen 64  scopeid 0x20<link>
+        ether 00:10:9b:45:c2:f8  txqueuelen 1000  (Ethernet)
+        RX packets 6011445  bytes 5878478384 (5.4 GiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 4449999  bytes 3008383387 (2.8 GiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 852  bytes 55200 (53.9 KiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 852  bytes 55200 (53.9 KiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+virbr0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        inet 192.168.122.1  netmask 255.255.255.0  broadcast 192.168.122.255
+        ether 52:54:00:6b:0a:ee  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
