@@ -1,0 +1,73 @@
+.openmpi/bin/mpirun --prefix ~/.openmpi -x LD_LIBRARY_PATH -hostfile hostfile --mca btl_tcp_if_include ens6f0 -np 72 GradMPI/NPB3.3.1/NPB3.3-MPI/bin/bt.B.36 -mrmpi-np 36
+GradMPI/NPB3.3.1/NPB3.3-MPI/bin/bt.B.36 36 2 
+mode  MsgPlusHash
+npb time  91.35
+total time  97.24
+.openmpi/bin/mpirun --prefix ~/.openmpi -x LD_LIBRARY_PATH -hostfile hostfile --mca btl_tcp_if_include ens6f0 -np 128 GradMPI/NPB3.3.1/NPB3.3-MPI/bin/bt.B.64 -mrmpi-np 64
+GradMPI/NPB3.3.1/NPB3.3-MPI/bin/bt.B.64 64 2 
+mode  MsgPlusHash
+npb time  96.98
+total time  103.95
+.openmpi/bin/mpirun --prefix ~/.openmpi -x LD_LIBRARY_PATH -hostfile hostfile --mca btl_tcp_if_include ens6f0 -np 242 GradMPI/NPB3.3.1/NPB3.3-MPI/bin/bt.B.121 -mrmpi-np 121
+GradMPI/NPB3.3.1/NPB3.3-MPI/bin/bt.B.121 121 2 
+mode  MsgPlusHash
+npb time  119.07
+total time  126.32
+.openmpi/bin/mpirun --prefix ~/.openmpi -x LD_LIBRARY_PATH -hostfile hostfile --mca btl_tcp_if_include ens6f0 -np 72 GradMPI/NPB3.3.1/NPB3.3-MPI/bin/bt.B.36 -mrmpi-np 36
+GradMPI/NPB3.3.1/NPB3.3-MPI/bin/bt.B.36 36 2 
+mode  MsgPlusHash
+npb time  92.11
+total time  97.24
+.openmpi/bin/mpirun --prefix ~/.openmpi -x LD_LIBRARY_PATH -hostfile hostfile --mca btl_tcp_if_include ens6f0 -np 128 GradMPI/NPB3.3.1/NPB3.3-MPI/bin/bt.B.64 -mrmpi-np 64
+GradMPI/NPB3.3.1/NPB3.3-MPI/bin/bt.B.64 64 2 
+mode  MsgPlusHash
+npb time  98.04
+total time  104.46
+.openmpi/bin/mpirun --prefix ~/.openmpi -x LD_LIBRARY_PATH -hostfile hostfile --mca btl_tcp_if_include ens6f0 -np 242 GradMPI/NPB3.3.1/NPB3.3-MPI/bin/bt.B.121 -mrmpi-np 121
+GradMPI/NPB3.3.1/NPB3.3-MPI/bin/bt.B.121 121 2 
+mode  MsgPlusHash
+npb time  120.75
+total time  127.68
+.openmpi/bin/mpirun --prefix ~/.openmpi -x LD_LIBRARY_PATH -hostfile hostfile --mca btl_tcp_if_include ens6f0 -np 72 GradMPI/NPB3.3.1/NPB3.3-MPI/bin/bt.B.36 -mrmpi-np 36
+GradMPI/NPB3.3.1/NPB3.3-MPI/bin/bt.B.36 36 2 
+mode  MsgPlusHash
+npb time  92.51
+total time  97.61
+.openmpi/bin/mpirun --prefix ~/.openmpi -x LD_LIBRARY_PATH -hostfile hostfile --mca btl_tcp_if_include ens6f0 -np 128 GradMPI/NPB3.3.1/NPB3.3-MPI/bin/bt.B.64 -mrmpi-np 64
+GradMPI/NPB3.3.1/NPB3.3-MPI/bin/bt.B.64 64 2 
+mode  MsgPlusHash
+npb time  96.67
+total time  102.89
+.openmpi/bin/mpirun --prefix ~/.openmpi -x LD_LIBRARY_PATH -hostfile hostfile --mca btl_tcp_if_include ens6f0 -np 242 GradMPI/NPB3.3.1/NPB3.3-MPI/bin/bt.B.121 -mrmpi-np 121
+GradMPI/NPB3.3.1/NPB3.3-MPI/bin/bt.B.121 121 2 
+mode  MsgPlusHash
+npb time  122.61
+total time  130.45
+.openmpi/bin/mpirun --prefix ~/.openmpi -x LD_LIBRARY_PATH -hostfile hostfile --mca btl_tcp_if_include ens6f0 -np 72 GradMPI/NPB3.3.1/NPB3.3-MPI/bin/bt.B.36 -mrmpi-np 36
+GradMPI/NPB3.3.1/NPB3.3-MPI/bin/bt.B.36 36 2 
+mode  MsgPlusHash
+npb time  94.64
+total time  99.80
+.openmpi/bin/mpirun --prefix ~/.openmpi -x LD_LIBRARY_PATH -hostfile hostfile --mca btl_tcp_if_include ens6f0 -np 128 GradMPI/NPB3.3.1/NPB3.3-MPI/bin/bt.B.64 -mrmpi-np 64
+GradMPI/NPB3.3.1/NPB3.3-MPI/bin/bt.B.64 64 2 
+mode  MsgPlusHash
+npb time  96.95
+total time  103.61
+.openmpi/bin/mpirun --prefix ~/.openmpi -x LD_LIBRARY_PATH -hostfile hostfile --mca btl_tcp_if_include ens6f0 -np 242 GradMPI/NPB3.3.1/NPB3.3-MPI/bin/bt.B.121 -mrmpi-np 121
+GradMPI/NPB3.3.1/NPB3.3-MPI/bin/bt.B.121 121 2 
+mode  MsgPlusHash
+npb time  122.33
+total time  129.10
+.openmpi/bin/mpirun --prefix ~/.openmpi -x LD_LIBRARY_PATH -hostfile hostfile --mca btl_tcp_if_include ens6f0 -np 72 GradMPI/NPB3.3.1/NPB3.3-MPI/bin/bt.B.36 -mrmpi-np 36
+GradMPI/NPB3.3.1/NPB3.3-MPI/bin/bt.B.36 36 2 
+mode  MsgPlusHash
+npb time  90.54
+total time  94.65
+.openmpi/bin/mpirun --prefix ~/.openmpi -x LD_LIBRARY_PATH -hostfile hostfile --mca btl_tcp_if_include ens6f0 -np 128 GradMPI/NPB3.3.1/NPB3.3-MPI/bin/bt.B.64 -mrmpi-np 64
+GradMPI/NPB3.3.1/NPB3.3-MPI/bin/bt.B.64 64 2 
+mode  MsgPlusHash
+npb time  96.47
+total time  102.73
+.openmpi/bin/mpirun --prefix ~/.openmpi -x LD_LIBRARY_PATH -hostfile hostfile --mca btl_tcp_if_include ens6f0 -np 242 GradMPI/NPB3.3.1/NPB3.3-MPI/bin/bt.B.121 -mrmpi-np 121
+GradMPI/NPB3.3.1/NPB3.3-MPI/bin/bt.B.121 121 2 
+mode  MsgPlusHash
