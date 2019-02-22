@@ -1,0 +1,150 @@
+.openmpi/bin/mpirun --prefix ~/.openmpi -x LD_LIBRARY_PATH -hostfile hostfile --mca btl_tcp_if_include ens6f0 -np 96 GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.32 -mrmpi-np 32
+GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.32 32 3 
+mode  AllToAll
+npb time  45.46
+total time  48.83
+.openmpi/bin/mpirun --prefix ~/.openmpi -x LD_LIBRARY_PATH -hostfile hostfile --mca btl_tcp_if_include ens6f0 -np 192 GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.64 -mrmpi-np 64
+GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.64 64 3 
+mode  AllToAll
+npb time  43.52
+total time  47.81
+.openmpi/bin/mpirun --prefix ~/.openmpi -x LD_LIBRARY_PATH -hostfile hostfile --mca btl_tcp_if_include ens6f0 -np 384 GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.128 -mrmpi-np 128
+GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.128 128 3 
+mode  AllToAll
+npb time  37.29
+total time  40.94
+.openmpi/bin/mpirun --prefix ~/.openmpi -x LD_LIBRARY_PATH -hostfile hostfile --mca btl_tcp_if_include ens6f0 -np 96 GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.32 -mrmpi-np 32
+GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.32 32 3 
+mode  AllToAll
+npb time  38.78
+total time  42.68
+.openmpi/bin/mpirun --prefix ~/.openmpi -x LD_LIBRARY_PATH -hostfile hostfile --mca btl_tcp_if_include ens6f0 -np 192 GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.64 -mrmpi-np 64
+GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.64 64 3 
+mode  AllToAll
+npb time  42.83
+total time  46.17
+.openmpi/bin/mpirun --prefix ~/.openmpi -x LD_LIBRARY_PATH -hostfile hostfile --mca btl_tcp_if_include ens6f0 -np 384 GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.128 -mrmpi-np 128
+GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.128 128 3 
+mode  AllToAll
+npb time  35.33
+total time  39.28
+.openmpi/bin/mpirun --prefix ~/.openmpi -x LD_LIBRARY_PATH -hostfile hostfile --mca btl_tcp_if_include ens6f0 -np 96 GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.32 -mrmpi-np 32
+GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.32 32 3 
+mode  AllToAll
+npb time  28.37
+total time  32.43
+.openmpi/bin/mpirun --prefix ~/.openmpi -x LD_LIBRARY_PATH -hostfile hostfile --mca btl_tcp_if_include ens6f0 -np 192 GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.64 -mrmpi-np 64
+GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.64 64 3 
+mode  AllToAll
+npb time  50.08
+total time  53.71
+.openmpi/bin/mpirun --prefix ~/.openmpi -x LD_LIBRARY_PATH -hostfile hostfile --mca btl_tcp_if_include ens6f0 -np 384 GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.128 -mrmpi-np 128
+GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.128 128 3 
+mode  AllToAll
+npb time  35.48
+total time  39.75
+.openmpi/bin/mpirun --prefix ~/.openmpi -x LD_LIBRARY_PATH -hostfile hostfile --mca btl_tcp_if_include ens6f0 -np 96 GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.32 -mrmpi-np 32
+GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.32 32 3 
+mode  AllToAll
+npb time  28.52
+total time  31.87
+.openmpi/bin/mpirun --prefix ~/.openmpi -x LD_LIBRARY_PATH -hostfile hostfile --mca btl_tcp_if_include ens6f0 -np 192 GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.64 -mrmpi-np 64
+GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.64 64 3 
+mode  AllToAll
+npb time  47.89
+total time  51.31
+.openmpi/bin/mpirun --prefix ~/.openmpi -x LD_LIBRARY_PATH -hostfile hostfile --mca btl_tcp_if_include ens6f0 -np 384 GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.128 -mrmpi-np 128
+GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.128 128 3 
+mode  AllToAll
+npb time  35.45
+total time  40.05
+.openmpi/bin/mpirun --prefix ~/.openmpi -x LD_LIBRARY_PATH -hostfile hostfile --mca btl_tcp_if_include ens6f0 -np 96 GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.32 -mrmpi-np 32
+GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.32 32 3 
+mode  AllToAll
+npb time  29.23
+total time  32.58
+.openmpi/bin/mpirun --prefix ~/.openmpi -x LD_LIBRARY_PATH -hostfile hostfile --mca btl_tcp_if_include ens6f0 -np 192 GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.64 -mrmpi-np 64
+GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.64 64 3 
+mode  AllToAll
+npb time  78.45
+total time  82.13
+.openmpi/bin/mpirun --prefix ~/.openmpi -x LD_LIBRARY_PATH -hostfile hostfile --mca btl_tcp_if_include ens6f0 -np 384 GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.128 -mrmpi-np 128
+GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.128 128 3 
+mode  AllToAll
+npb time  146.13
+total time  153.52
+.openmpi/bin/mpirun --prefix ~/.openmpi -x LD_LIBRARY_PATH -hostfile hostfile --mca btl_tcp_if_include ens6f0 -np 96 GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.32 -mrmpi-np 32
+GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.32 32 3 
+mode  AllToAll
+npb time  47.68
+total time  51.80
+.openmpi/bin/mpirun --prefix ~/.openmpi -x LD_LIBRARY_PATH -hostfile hostfile --mca btl_tcp_if_include ens6f0 -np 192 GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.64 -mrmpi-np 64
+GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.64 64 3 
+mode  AllToAll
+npb time  77.48
+total time  82.75
+.openmpi/bin/mpirun --prefix ~/.openmpi -x LD_LIBRARY_PATH -hostfile hostfile --mca btl_tcp_if_include ens6f0 -np 384 GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.128 -mrmpi-np 128
+GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.128 128 3 
+mode  AllToAll
+npb time  140.40
+total time  147.58
+.openmpi/bin/mpirun --prefix ~/.openmpi -x LD_LIBRARY_PATH -hostfile hostfile --mca btl_tcp_if_include ens6f0 -np 96 GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.32 -mrmpi-np 32
+GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.32 32 3 
+mode  AllToAll
+npb time  48.53
+total time  52.59
+.openmpi/bin/mpirun --prefix ~/.openmpi -x LD_LIBRARY_PATH -hostfile hostfile --mca btl_tcp_if_include ens6f0 -np 192 GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.64 -mrmpi-np 64
+GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.64 64 3 
+mode  AllToAll
+npb time  78.75
+total time  82.98
+.openmpi/bin/mpirun --prefix ~/.openmpi -x LD_LIBRARY_PATH -hostfile hostfile --mca btl_tcp_if_include ens6f0 -np 384 GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.128 -mrmpi-np 128
+GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.128 128 3 
+mode  AllToAll
+npb time  135.83
+total time  142.67
+.openmpi/bin/mpirun --prefix ~/.openmpi -x LD_LIBRARY_PATH -hostfile hostfile --mca btl_tcp_if_include ens6f0 -np 96 GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.32 -mrmpi-np 32
+GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.32 32 3 
+mode  AllToAll
+npb time  48.07
+total time  52.18
+.openmpi/bin/mpirun --prefix ~/.openmpi -x LD_LIBRARY_PATH -hostfile hostfile --mca btl_tcp_if_include ens6f0 -np 192 GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.64 -mrmpi-np 64
+GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.64 64 3 
+mode  AllToAll
+npb time  77.10
+total time  81.41
+.openmpi/bin/mpirun --prefix ~/.openmpi -x LD_LIBRARY_PATH -hostfile hostfile --mca btl_tcp_if_include ens6f0 -np 384 GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.128 -mrmpi-np 128
+GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.128 128 3 
+mode  AllToAll
+npb time  138.61
+total time  146.06
+.openmpi/bin/mpirun --prefix ~/.openmpi -x LD_LIBRARY_PATH -hostfile hostfile --mca btl_tcp_if_include ens6f0 -np 96 GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.32 -mrmpi-np 32
+GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.32 32 3 
+mode  AllToAll
+npb time  47.65
+total time  51.78
+.openmpi/bin/mpirun --prefix ~/.openmpi -x LD_LIBRARY_PATH -hostfile hostfile --mca btl_tcp_if_include ens6f0 -np 192 GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.64 -mrmpi-np 64
+GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.64 64 3 
+mode  AllToAll
+npb time  73.65
+total time  78.43
+.openmpi/bin/mpirun --prefix ~/.openmpi -x LD_LIBRARY_PATH -hostfile hostfile --mca btl_tcp_if_include ens6f0 -np 384 GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.128 -mrmpi-np 128
+GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.128 128 3 
+mode  AllToAll
+npb time  137.65
+total time  144.50
+.openmpi/bin/mpirun --prefix ~/.openmpi -x LD_LIBRARY_PATH -hostfile hostfile --mca btl_tcp_if_include ens6f0 -np 96 GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.32 -mrmpi-np 32
+GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.32 32 3 
+mode  AllToAll
+npb time  48.20
+total time  52.32
+.openmpi/bin/mpirun --prefix ~/.openmpi -x LD_LIBRARY_PATH -hostfile hostfile --mca btl_tcp_if_include ens6f0 -np 192 GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.64 -mrmpi-np 64
+GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.64 64 3 
+mode  AllToAll
+npb time  70.90
+total time  82.47
+.openmpi/bin/mpirun --prefix ~/.openmpi -x LD_LIBRARY_PATH -hostfile hostfile --mca btl_tcp_if_include ens6f0 -np 384 GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.128 -mrmpi-np 128
+GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.128 128 3 
+mode  AllToAll
+npb time  134.87
+total time  142.01

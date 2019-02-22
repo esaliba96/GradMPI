@@ -1,0 +1,150 @@
+.openmpi/bin/mpirun --prefix ~/.openmpi -x LD_LIBRARY_PATH -hostfile hostfile --mca btl_tcp_if_include ens6f0 -np 96 GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.32 -mrmpi-np 32
+GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.32 32 3 
+mode  MsgPlusHash
+npb time  35.23
+total time  38.39
+.openmpi/bin/mpirun --prefix ~/.openmpi -x LD_LIBRARY_PATH -hostfile hostfile --mca btl_tcp_if_include ens6f0 -np 192 GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.64 -mrmpi-np 64
+GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.64 64 3 
+mode  MsgPlusHash
+npb time  49.92
+total time  54.36
+.openmpi/bin/mpirun --prefix ~/.openmpi -x LD_LIBRARY_PATH -hostfile hostfile --mca btl_tcp_if_include ens6f0 -np 384 GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.128 -mrmpi-np 128
+GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.128 128 3 
+mode  MsgPlusHash
+npb time  104.27
+total time  110.43
+.openmpi/bin/mpirun --prefix ~/.openmpi -x LD_LIBRARY_PATH -hostfile hostfile --mca btl_tcp_if_include ens6f0 -np 96 GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.32 -mrmpi-np 32
+GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.32 32 3 
+mode  MsgPlusHash
+npb time  35.17
+total time  39.12
+.openmpi/bin/mpirun --prefix ~/.openmpi -x LD_LIBRARY_PATH -hostfile hostfile --mca btl_tcp_if_include ens6f0 -np 192 GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.64 -mrmpi-np 64
+GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.64 64 3 
+mode  MsgPlusHash
+npb time  52.62
+total time  57.30
+.openmpi/bin/mpirun --prefix ~/.openmpi -x LD_LIBRARY_PATH -hostfile hostfile --mca btl_tcp_if_include ens6f0 -np 384 GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.128 -mrmpi-np 128
+GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.128 128 3 
+mode  MsgPlusHash
+npb time  97.64
+total time  104.11
+.openmpi/bin/mpirun --prefix ~/.openmpi -x LD_LIBRARY_PATH -hostfile hostfile --mca btl_tcp_if_include ens6f0 -np 96 GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.32 -mrmpi-np 32
+GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.32 32 3 
+mode  MsgPlusHash
+npb time  34.85
+total time  38.74
+.openmpi/bin/mpirun --prefix ~/.openmpi -x LD_LIBRARY_PATH -hostfile hostfile --mca btl_tcp_if_include ens6f0 -np 192 GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.64 -mrmpi-np 64
+GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.64 64 3 
+mode  MsgPlusHash
+npb time  48.89
+total time  52.76
+.openmpi/bin/mpirun --prefix ~/.openmpi -x LD_LIBRARY_PATH -hostfile hostfile --mca btl_tcp_if_include ens6f0 -np 384 GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.128 -mrmpi-np 128
+GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.128 128 3 
+mode  MsgPlusHash
+npb time  97.80
+total time  104.83
+.openmpi/bin/mpirun --prefix ~/.openmpi -x LD_LIBRARY_PATH -hostfile hostfile --mca btl_tcp_if_include ens6f0 -np 96 GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.32 -mrmpi-np 32
+GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.32 32 3 
+mode  MsgPlusHash
+npb time  33.73
+total time  37.34
+.openmpi/bin/mpirun --prefix ~/.openmpi -x LD_LIBRARY_PATH -hostfile hostfile --mca btl_tcp_if_include ens6f0 -np 192 GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.64 -mrmpi-np 64
+GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.64 64 3 
+mode  MsgPlusHash
+npb time  51.12
+total time  55.15
+.openmpi/bin/mpirun --prefix ~/.openmpi -x LD_LIBRARY_PATH -hostfile hostfile --mca btl_tcp_if_include ens6f0 -np 384 GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.128 -mrmpi-np 128
+GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.128 128 3 
+mode  MsgPlusHash
+npb time  105.68
+total time  112.46
+.openmpi/bin/mpirun --prefix ~/.openmpi -x LD_LIBRARY_PATH -hostfile hostfile --mca btl_tcp_if_include ens6f0 -np 96 GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.32 -mrmpi-np 32
+GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.32 32 3 
+mode  MsgPlusHash
+npb time  35.44
+total time  39.39
+.openmpi/bin/mpirun --prefix ~/.openmpi -x LD_LIBRARY_PATH -hostfile hostfile --mca btl_tcp_if_include ens6f0 -np 192 GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.64 -mrmpi-np 64
+GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.64 64 3 
+mode  MsgPlusHash
+npb time  51.64
+total time  55.46
+.openmpi/bin/mpirun --prefix ~/.openmpi -x LD_LIBRARY_PATH -hostfile hostfile --mca btl_tcp_if_include ens6f0 -np 384 GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.128 -mrmpi-np 128
+GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.128 128 3 
+mode  MsgPlusHash
+npb time  98.79
+total time  105.65
+.openmpi/bin/mpirun --prefix ~/.openmpi -x LD_LIBRARY_PATH -hostfile hostfile --mca btl_tcp_if_include ens6f0 -np 96 GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.32 -mrmpi-np 32
+GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.32 32 3 
+mode  MsgPlusHash
+npb time  34.91
+total time  38.81
+.openmpi/bin/mpirun --prefix ~/.openmpi -x LD_LIBRARY_PATH -hostfile hostfile --mca btl_tcp_if_include ens6f0 -np 192 GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.64 -mrmpi-np 64
+GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.64 64 3 
+mode  MsgPlusHash
+npb time  49.94
+total time  53.79
+.openmpi/bin/mpirun --prefix ~/.openmpi -x LD_LIBRARY_PATH -hostfile hostfile --mca btl_tcp_if_include ens6f0 -np 384 GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.128 -mrmpi-np 128
+GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.128 128 3 
+mode  MsgPlusHash
+npb time  113.15
+total time  119.30
+.openmpi/bin/mpirun --prefix ~/.openmpi -x LD_LIBRARY_PATH -hostfile hostfile --mca btl_tcp_if_include ens6f0 -np 96 GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.32 -mrmpi-np 32
+GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.32 32 3 
+mode  MsgPlusHash
+npb time  34.72
+total time  38.74
+.openmpi/bin/mpirun --prefix ~/.openmpi -x LD_LIBRARY_PATH -hostfile hostfile --mca btl_tcp_if_include ens6f0 -np 192 GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.64 -mrmpi-np 64
+GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.64 64 3 
+mode  MsgPlusHash
+npb time  47.01
+total time  50.77
+.openmpi/bin/mpirun --prefix ~/.openmpi -x LD_LIBRARY_PATH -hostfile hostfile --mca btl_tcp_if_include ens6f0 -np 384 GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.128 -mrmpi-np 128
+GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.128 128 3 
+mode  MsgPlusHash
+npb time  91.51
+total time  97.45
+.openmpi/bin/mpirun --prefix ~/.openmpi -x LD_LIBRARY_PATH -hostfile hostfile --mca btl_tcp_if_include ens6f0 -np 96 GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.32 -mrmpi-np 32
+GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.32 32 3 
+mode  MsgPlusHash
+npb time  34.63
+total time  38.52
+.openmpi/bin/mpirun --prefix ~/.openmpi -x LD_LIBRARY_PATH -hostfile hostfile --mca btl_tcp_if_include ens6f0 -np 192 GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.64 -mrmpi-np 64
+GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.64 64 3 
+mode  MsgPlusHash
+npb time  38.30
+total time  42.60
+.openmpi/bin/mpirun --prefix ~/.openmpi -x LD_LIBRARY_PATH -hostfile hostfile --mca btl_tcp_if_include ens6f0 -np 384 GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.128 -mrmpi-np 128
+GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.128 128 3 
+mode  MsgPlusHash
+npb time  77.38
+total time  82.88
+.openmpi/bin/mpirun --prefix ~/.openmpi -x LD_LIBRARY_PATH -hostfile hostfile --mca btl_tcp_if_include ens6f0 -np 96 GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.32 -mrmpi-np 32
+GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.32 32 3 
+mode  MsgPlusHash
+npb time  33.68
+total time  37.48
+.openmpi/bin/mpirun --prefix ~/.openmpi -x LD_LIBRARY_PATH -hostfile hostfile --mca btl_tcp_if_include ens6f0 -np 192 GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.64 -mrmpi-np 64
+GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.64 64 3 
+mode  MsgPlusHash
+npb time  31.35
+total time  34.94
+.openmpi/bin/mpirun --prefix ~/.openmpi -x LD_LIBRARY_PATH -hostfile hostfile --mca btl_tcp_if_include ens6f0 -np 384 GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.128 -mrmpi-np 128
+GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.128 128 3 
+mode  MsgPlusHash
+npb time  40.14
+total time  45.41
+.openmpi/bin/mpirun --prefix ~/.openmpi -x LD_LIBRARY_PATH -hostfile hostfile --mca btl_tcp_if_include ens6f0 -np 96 GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.32 -mrmpi-np 32
+GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.32 32 3 
+mode  MsgPlusHash
+npb time  32.75
+total time  36.45
+.openmpi/bin/mpirun --prefix ~/.openmpi -x LD_LIBRARY_PATH -hostfile hostfile --mca btl_tcp_if_include ens6f0 -np 192 GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.64 -mrmpi-np 64
+GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.64 64 3 
+mode  MsgPlusHash
+npb time  27.29
+total time  31.27
+.openmpi/bin/mpirun --prefix ~/.openmpi -x LD_LIBRARY_PATH -hostfile hostfile --mca btl_tcp_if_include ens6f0 -np 384 GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.128 -mrmpi-np 128
+GradMPI/NPB3.3.1/NPB3.3-MPI/bin/cg.C.128 128 3 
+mode  MsgPlusHash
+npb time  27.29
+total time  31.00
