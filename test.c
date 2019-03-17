@@ -4,7 +4,7 @@
 #include <float.h>
 #include <math.h>
 
-#define MULTIPLIER 7
+#define MULTIPLIER 1
 
 double dtime() {
   double tseconds = 0.0;
@@ -38,14 +38,16 @@ int main(int argc, char *argv[]) {
       int flag = -1;
       float res = 0;
       MPI_Request request;
-      MPI_Status status;
+
       while (1) { 
         if(flag != 0) {
-          MPI_Irecv(&res, 1, MPI_FLOAT, MPI_ANY_SOURCE, MPI_ANY_TAG, MPI_COMM_WORLD, &request);
+  //        printf("%d\n", status.MPI_SOURCE);
+          MPI_Irecv(&res, 1, MPI_FLOAT, 1, MPI_ANY_TAG, MPI_COMM_WORLD, &request);
+//          printf("%g %d\n", res, status.MPI_SOURCE);
           flag = 0;
-        }
-        MPI_Test(&request, &flag, &status);
-
+        } 
+        if (request != NULL)
+          MPI_Test(&request, &flag, &status);
         if (flag != 0) {
           //if (res < 1.1 && res > 1) 
           //  printf("recv : %g, slave : %d\n", res, status.MPI_SOURCE);
@@ -53,7 +55,7 @@ int main(int argc, char *argv[]) {
             sum += 1;
           flag = -1;
         }
-        printf("%d\n", sum);
+       // printf("%d\n", sum);
         
         if (sum == (size-1)*total + (size-1)) {
           printf("res : %g, %i \n", res, sum);
