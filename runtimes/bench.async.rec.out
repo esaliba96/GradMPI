@@ -1,0 +1,90 @@
+.openmpi/bin/mpirun --prefix ~/.openmpi -x LD_LIBRARY_PATH -hostfile hostfile --mca btl_tcp_if_include ens6f0 -np 96 bench.32 -mrmpi-np 32 -mrmpi-sbcorrupt 1
+bench.32 32 3 
+mode  AllToAll
+success
+92953
+total time  4.70
+.openmpi/bin/mpirun --prefix ~/.openmpi -x LD_LIBRARY_PATH -hostfile hostfile --mca btl_tcp_if_include ens6f0 -np 192 bench.64 -mrmpi-np 64 -mrmpi-sbcorrupt 1
+bench.64 64 3 
+mode  AllToAll
+success
+188801
+total time  4.03
+.openmpi/bin/mpirun --prefix ~/.openmpi -x LD_LIBRARY_PATH -hostfile hostfile --mca btl_tcp_if_include ens6f0 -np 384 bench.128 -mrmpi-np 128 -mrmpi-sbcorrupt 1
+bench.128 128 3 
+mode  AllToAll
+success
+380783
+total time  9.06
+.openmpi/bin/mpirun --prefix ~/.openmpi -x LD_LIBRARY_PATH -hostfile hostfile --mca btl_tcp_if_include ens6f0 -np 96 bench.32 -mrmpi-np 32 -mrmpi-sbcorrupt 1
+bench.32 32 3 
+mode  AllToAll
+success
+92963
+total time  3.89
+.openmpi/bin/mpirun --prefix ~/.openmpi -x LD_LIBRARY_PATH -hostfile hostfile --mca btl_tcp_if_include ens6f0 -np 192 bench.64 -mrmpi-np 64 -mrmpi-sbcorrupt 1
+bench.64 64 3 
+mode  AllToAll
+success
+188901
+total time  5.09
+.openmpi/bin/mpirun --prefix ~/.openmpi -x LD_LIBRARY_PATH -hostfile hostfile --mca btl_tcp_if_include ens6f0 -np 384 bench.128 -mrmpi-np 128 -mrmpi-sbcorrupt 1
+bench.128 128 3 
+mode  AllToAll
+success
+380950
+total time  8.57
+.openmpi/bin/mpirun --prefix ~/.openmpi -x LD_LIBRARY_PATH -hostfile hostfile --mca btl_tcp_if_include ens6f0 -np 96 bench.32 -mrmpi-np 32 -mrmpi-sbcorrupt 1
+bench.32 32 3 
+mode  AllToAll
+success
+92991
+total time  3.42
+.openmpi/bin/mpirun --prefix ~/.openmpi -x LD_LIBRARY_PATH -hostfile hostfile --mca btl_tcp_if_include ens6f0 -np 192 bench.64 -mrmpi-np 64 -mrmpi-sbcorrupt 1
+bench.64 64 3 
+mode  AllToAll
+success
+188872
+total time  4.54
+.openmpi/bin/mpirun --prefix ~/.openmpi -x LD_LIBRARY_PATH -hostfile hostfile --mca btl_tcp_if_include ens6f0 -np 384 bench.128 -mrmpi-np 128 -mrmpi-sbcorrupt 1
+bench.128 128 3 
+mode  AllToAll
+success
+380785
+total time  9.00
+.openmpi/bin/mpirun --prefix ~/.openmpi -x LD_LIBRARY_PATH -hostfile hostfile --mca btl_tcp_if_include ens6f0 -np 96 bench.32 -mrmpi-np 32 -mrmpi-sbcorrupt 1
+bench.32 32 3 
+mode  AllToAll
+success
+92978
+total time  3.52
+.openmpi/bin/mpirun --prefix ~/.openmpi -x LD_LIBRARY_PATH -hostfile hostfile --mca btl_tcp_if_include ens6f0 -np 192 bench.64 -mrmpi-np 64 -mrmpi-sbcorrupt 1
+bench.64 64 3 
+mode  AllToAll
+success
+188799
+total time  4.39
+.openmpi/bin/mpirun --prefix ~/.openmpi -x LD_LIBRARY_PATH -hostfile hostfile --mca btl_tcp_if_include ens6f0 -np 384 bench.128 -mrmpi-np 128 -mrmpi-sbcorrupt 1
+bench.128 128 3 
+mode  AllToAll
+success
+380640
+total time  6.33
+.openmpi/bin/mpirun --prefix ~/.openmpi -x LD_LIBRARY_PATH -hostfile hostfile --mca btl_tcp_if_include ens6f0 -np 96 bench.32 -mrmpi-np 32 -mrmpi-sbcorrupt 1
+bench.32 32 3 
+mode  AllToAll
+success
+92916
+total time  3.71
+.openmpi/bin/mpirun --prefix ~/.openmpi -x LD_LIBRARY_PATH -hostfile hostfile --mca btl_tcp_if_include ens6f0 -np 192 bench.64 -mrmpi-np 64 -mrmpi-sbcorrupt 1
+bench.64 64 3 
+mode  AllToAll
+success
+188927
+total time  5.26
+.openmpi/bin/mpirun --prefix ~/.openmpi -x LD_LIBRARY_PATH -hostfile hostfile --mca btl_tcp_if_include ens6f0 -np 384 bench.128 -mrmpi-np 128 -mrmpi-sbcorrupt 1
+bench.128 128 3 
+mode  AllToAll
+success
+380759
+total time  8.38
